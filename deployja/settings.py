@@ -79,7 +79,7 @@ WSGI_APPLICATION = 'deployja.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'drearqllnbgki',
         'USER': 'wtzdydcnsazxdw',
         'PASSWORD': '57553ad13c363bbe8763353f914f679ea146c0c82eb21d6dee6c22c15e7dc5dc',
