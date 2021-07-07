@@ -79,7 +79,12 @@ WSGI_APPLICATION = 'deployja.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'NAME': 'drearqllnbgki',
+        'USER': 'wtzdydcnsazxdw',
+        'PASSWORD': '57553ad13c363bbe8763353f914f679ea146c0c82eb21d6dee6c22c15e7dc5dc',
+        'HOST': 'ec2-52-5-1-20.compute-1.amazonaws.com',
+        'PORT': '5432',
+        'CONN_MAX_AGE': 500,
     }
 }
 
